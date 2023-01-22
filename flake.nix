@@ -52,6 +52,8 @@
           ];
           nativeBuildInputs = [];
 
+          GIT_DISJOINT_DRY_RUN = "true";
+
           inherit (pre-commit-check) shellHook;
         };
       };
